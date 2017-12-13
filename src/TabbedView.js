@@ -1,6 +1,7 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import { View, StyleSheet, ViewPropTypes } from 'react-native';
 import StaticContainer from 'react-static-container';
+const PropTypes = require('prop-types');
 
 const styles = StyleSheet.create({
   scene: {

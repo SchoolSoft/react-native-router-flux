@@ -6,10 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  *
  */
-import React, {
-  Component,
-  PropTypes,
-} from 'react';
+import React, { Component } from 'react';
 import { BackHandler } from 'react-native';
 import NavigationExperimental from 'react-native-experimental-navigation';
 
@@ -19,6 +16,7 @@ import Reducer, { findElement } from './Reducer';
 import DefaultRenderer from './DefaultRenderer';
 import Scene from './Scene';
 import * as ActionConst from './ActionConst';
+const PropTypes = require('prop-types');
 
 const {
   RootContainer: NavigationRootContainer,

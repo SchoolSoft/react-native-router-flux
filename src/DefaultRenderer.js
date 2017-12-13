@@ -6,10 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  *
  */
-import React, {
-  PureComponent,
-  PropTypes,
-} from 'react';
+import React, { PureComponent } from 'react';
 import {
   Animated,
   View,
@@ -22,6 +19,8 @@ import TabBar from './TabBar';
 import NavBar from './NavBar';
 import Actions from './Actions';
 import { deepestExplicitValueForKey } from './Util';
+
+const PropTypes = require('prop-types');
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
 const SCREEN_HEIGHT = Dimensions.get('window').height;
